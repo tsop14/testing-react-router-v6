@@ -11,7 +11,7 @@ const Root = () => {
 							<Link to="/dog/rafa">Dog</Link>
 						</li>
 						<li className="nav__list__item">
-							<Link to="/cat/sparkey">Cat</Link>
+							<Link to="/cat/nyan">Cat</Link>
 						</li>
 					</ul>
 				</nav>

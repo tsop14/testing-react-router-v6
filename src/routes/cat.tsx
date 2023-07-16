@@ -1,8 +1,8 @@
-import { useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import "./cat.css";
 
 const Cat = () => {
-	const { name } = useParams() as { name: string };
+	const { name } = useLoaderData() as { name: string };
 	return (
 		<div className="cat-container">
 			<h1>Look at {name} fly</h1>

@@ -3,7 +3,7 @@ import "./dog.css";
 
 const Dog = () => {
 	const { name } = useParams() as { name: string };
-	const isBestDog = name.toLowerCase() === "rafa";
+	const isBestDog = name?.toLowerCase() === "rafa";
 	return (
 		<div className="dog-container">
 			<div className="dog__avatar" />
