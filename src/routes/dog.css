@@ -1,0 +1,18 @@
+.dog-container {
+	display: flex;
+	margin: 2rem;
+
+}
+.dog__avatar {
+	width: 400px;
+	height: 400px;
+	background-image: url("https://random.dog/11ce071b-acb8-4ede-87fa-8cb4fe204d2a.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	border-radius: 25% 75% / 50%;
+}
+
+.dog__text {
+	margin-left: 1rem;
+}
